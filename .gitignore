@@ -1,0 +1,8 @@
+/wizard/assets/visitors/*
+/wizard/assets/members_picture/*
+/wizard/assets/documents/*
+/wizard/assets/gallery/*
+/application/views/surveys/*
+/application/models/Surveydata.php
+/application/controllers/Surveys.php
+/application/controllers/Surveysform.php

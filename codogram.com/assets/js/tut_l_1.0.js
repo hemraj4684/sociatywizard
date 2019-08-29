@@ -1,0 +1,1 @@
+$(W).ready(function(){$('#ask-like').click(function(){whm('To Like This Tutorial')});});$('#comment-row').on('submit','#comment-form',function(e){EP(e);whm('To Comment');});$('#comment-row').on('submit','.reply-form',function(e){EP(e);whm('To Reply');});$('#comment-row').on('click','.more-reply',function(e){EP(e);whm('To See The Replies');})

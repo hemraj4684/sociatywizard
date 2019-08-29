@@ -1,0 +1,1 @@
+dt_obj['aoColumnDefs']=[{"bSortable":false,'aTargets':[0,6,7]},{"bSearchable":false,'aTargets':[0,6,7]}];$(document).ready(function(){$('.flats_data').DataTable(dt_obj);$('.dataTables_wrapper select').show();})

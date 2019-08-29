@@ -1,0 +1,1 @@
+dt_obj["aoColumnDefs"]={"bSortable":false,'aTargets':[3]},{"bSearchable":false,'aTargets':[3]};$(d).ready(function(){$('.data_list').dataTable(dt_obj);$('.dataTables_wrapper select').show();})

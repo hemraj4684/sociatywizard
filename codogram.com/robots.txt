@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /ajax/
+Disallow: /x/
+Disallow: /logout.php

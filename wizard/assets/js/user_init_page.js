@@ -1,0 +1,22 @@
+$(d).ready(function(){
+$('#verify_usercode').submit(function(e){
+PD(e)
+$('.submit-btn').prop('disabled',true)
+t=$(this)
+$.ajax({
+type:'post',
+data:t.serialize(),
+url:URL+'register/verify_code',
+dataType:'json',
+success:function(res){
+$('.submit-btn').prop('disabled',false)
+if(res.err){
+Materialize.toast(res.err,3000,'red accent-3 bold-500')
+}
+if(res.success){
+window.location.href=URL
+}
+}
+})
+})
+})

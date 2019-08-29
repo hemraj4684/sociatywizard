@@ -1,0 +1,1 @@
+var marker;function initMap(){var map=new google.maps.Map(W.getElementById('map'),{zoom:13,center:MLL,mapTypeId:google.maps.MapTypeId.ROADMAP});marker=new google.maps.Marker({position:MLL,map:map});marker.addListener('click', toggleBounce);}function toggleBounce(){if(marker.getAnimation()!==null){marker.setAnimation(null);}else{marker.setAnimation(google.maps.Animation.BOUNCE);}}

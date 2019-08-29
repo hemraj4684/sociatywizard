@@ -1,0 +1,6 @@
+.sum-up h3{font-weight:700;font-size:16px;margin:0;margin-bottom:10px;}
+.sum-up p{margin:0;}
+.sum-up td, th{padding:10px 5px}
+.notif-dismiss{color:#ff1744;cursor:pointer;font-size:16px;vertical-align:bottom;}
+.notif-dismiss:hover{color:#d50000;}
+.notif-list li{margin-top:15px;}
